@@ -5,9 +5,8 @@ Maxim Berman 2018 ESAT-PSI KU Leuven (MIT License)
 
 from __future__ import print_function, division
 
-import tensorflow as tf
 import numpy as np
-
+import tensorflow as tf
 
 def lovasz_grad(gt_sorted):
     """

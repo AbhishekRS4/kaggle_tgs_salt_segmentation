@@ -4,9 +4,9 @@ import os
 import json
 import numpy as np
 import tensorflow as tf
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
 from sklearn.utils import shuffle
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import train_test_split
 
 img_net_mean = np.array([0.485, 0.456, 0.406], dtype=np.float32).reshape(1, 3)
 img_net_std = np.array([0.229, 0.224, 0.225], dtype=np.float32).reshape(1, 3)
